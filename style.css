@@ -128,12 +128,11 @@ header{
 
 .listaProdutos{
     margin: 2vh 0;
-    height: 150vh;
     width: 70vw;
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-    flex-wrap: wrap;
+    overflow-x: auto;
+    gap: 10px;
+    
 }
 
 .listaProdutos .item img{
@@ -452,7 +451,6 @@ footer{
     width: 15vw;
     text-decoration: none;
     position: relative;
-    overflow: hidden;
     border: #00196A solid 0.1vw;
 }
 
